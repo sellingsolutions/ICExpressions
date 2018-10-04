@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.go.TestPerformance
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 3.632 sec - in org.antlr.v4.test.runtime.go.TestPerformance

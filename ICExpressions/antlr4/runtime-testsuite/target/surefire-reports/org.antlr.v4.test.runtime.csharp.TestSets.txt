@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestSets
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 32, Errors: 0, Skipped: 0, Time elapsed: 1.189 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestSets
+testOne[CSharp:UnicodeNegatedSMPSetIncludesBMPCodePoints](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeNegatedBMPSetIncludesSMPCodePoints](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeEscapedSMPRangeSetMismatch](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeEscapedSMPRangeSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeEscapedSMPSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeEscapedBMPRangeSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeEscapedBMPSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeUnescapedBMPRangeSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.021 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnicodeUnescapedBMPSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:StarSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:StarLexerSingleElement_2](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:StarLexerSingleElement_1](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SeqDoesNotBecomeSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:RuleAsSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PlusSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PlusLexerSingleElement](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ParserSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ParserNotTokenWithLabel](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.039 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ParserNotToken](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.041 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ParserNotSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:OptionalSingleElement](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:OptionalSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:OptionalLexerSingleElement](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:NotCharSetWithRuleRef3](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:NotCharSetWithLabel](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:NotCharSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:NotChar](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.041 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LexerStarSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LexerPlusSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LexerOptionalSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ComplementSet](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.044 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:CharSetLiteral](org.antlr.v4.test.runtime.csharp.TestSets)  Time elapsed: 0.065 sec  <<< FAILURE!
+java.lang.AssertionError
+

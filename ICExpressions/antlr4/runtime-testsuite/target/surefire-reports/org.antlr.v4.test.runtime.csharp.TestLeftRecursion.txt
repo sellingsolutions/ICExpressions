@@ -1,0 +1,298 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestLeftRecursion
+-------------------------------------------------------------------------------
+Tests run: 98, Failures: 98, Errors: 0, Skipped: 0, Time elapsed: 9.692 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestLeftRecursion
+testOne[CSharp:WhitespaceInfluence_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:WhitespaceInfluence_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.166 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_9](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.081 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_8](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.092 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_7](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_6](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.087 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.093 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.112 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.135 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.139 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExpr_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.145 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_9](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.14 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_8](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.15 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_7](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.148 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_6](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.118 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.089 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.072 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.081 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.08 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TernaryExprExplicitAssociativity_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.087 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Simple_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.068 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Simple_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.075 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Simple_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.075 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SemPredFailOption](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.075 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SemPred](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActions_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.08 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActions_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.083 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActions_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActions_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.085 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList2_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList2_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.091 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList2_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.101 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList2_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.122 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList1_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.088 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList1_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.086 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList1_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.081 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsList1_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsAndLabels_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.115 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsAndLabels_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.123 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsAndLabels_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.135 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReturnValueAndActionsAndLabels_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.096 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PrefixOpWithActionAndLabel_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.098 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PrefixOpWithActionAndLabel_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.082 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PrefixOpWithActionAndLabel_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.14 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PrefixAndOtherAlt_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.127 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PrefixAndOtherAlt_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.12 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PrecedenceFilterConsidersContext](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.098 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleAlternativesWithCommonLabel_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.119 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleAlternativesWithCommonLabel_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.129 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleAlternativesWithCommonLabel_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.178 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleAlternativesWithCommonLabel_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.162 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleAlternativesWithCommonLabel_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.176 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleActions_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.136 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleActions_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.185 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleActions_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.151 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleActionsPredicatesOptions_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.116 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleActionsPredicatesOptions_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.067 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleActionsPredicatesOptions_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.065 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LabelsOnOpSubrule_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LabelsOnOpSubrule_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.06 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LabelsOnOpSubrule_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.057 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_12](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_11](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.102 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_10](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.1 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_9](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.106 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_8](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.135 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_7](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.14 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_6](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.115 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.106 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.11 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.119 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.105 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:JavaExpressions_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.123 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_7](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.088 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_6](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.098 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.081 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Expressions_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DirectCallToLeftRecursiveRule_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.075 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DirectCallToLeftRecursiveRule_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DirectCallToLeftRecursiveRule_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.067 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_10](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.087 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_9](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.072 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_8](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.068 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_7](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.06 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_6](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.063 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.068 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.068 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.073 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.075 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Declarations_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.065 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AmbigLR_5](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.071 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AmbigLR_4](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.073 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AmbigLR_3](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.094 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AmbigLR_2](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.082 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AmbigLR_1](org.antlr.v4.test.runtime.csharp.TestLeftRecursion)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError
+

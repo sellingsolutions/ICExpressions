@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestPerformance
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestPerformance
+testOne[CSharp:DropLoopEntryBranchInLRRule_5](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DropLoopEntryBranchInLRRule_4](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DropLoopEntryBranchInLRRule_3](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DropLoopEntryBranchInLRRule_2](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.059 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DropLoopEntryBranchInLRRule_1](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.063 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ExpressionGrammar_2](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ExpressionGrammar_1](org.antlr.v4.test.runtime.csharp.TestPerformance)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.AssertionError
+

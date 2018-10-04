@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="759.207" tests="98" errors="0" skipped="0" failures="79">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="SE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/n5/5hvn8nl54jzcrls7syg644b00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zno/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zno"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zno"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/zno/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testOne[Swift:WhitespaceInfluence_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.311">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:WhitespaceInfluence_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.433">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_9]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.504">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_8]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.534">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_7]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.516">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_6]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.462">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.373">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.502">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.494">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.474">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExpr_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.449">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_9]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.55">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_8]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.547">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_7]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.513">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_6]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.467">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.458">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.534">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.623">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.554">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:TernaryExprExplicitAssociativity_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.478">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Simple_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.474"/>
+  <testcase name="testOne[Swift:Simple_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.434"/>
+  <testcase name="testOne[Swift:Simple_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.429"/>
+  <testcase name="testOne[Swift:SemPredFailOption]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.512"/>
+  <testcase name="testOne[Swift:SemPred]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.409"/>
+  <testcase name="testOne[Swift:ReturnValueAndActions_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.565">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActions_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.603">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActions_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.572">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActions_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.553">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList2_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.576"/>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList2_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.627"/>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList2_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.611"/>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList2_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.581"/>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList1_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.584">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList1_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.639">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList1_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.61">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsList1_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.558">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsAndLabels_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.8">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsAndLabels_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.486">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsAndLabels_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.808">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:ReturnValueAndActionsAndLabels_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.739">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:PrefixOpWithActionAndLabel_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="11.287">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[...]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:PrefixOpWithActionAndLabel_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="11.113">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:PrefixOpWithActionAndLabel_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="11.122">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:PrefixAndOtherAlt_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.451">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:PrefixAndOtherAlt_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.384">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:PrecedenceFilterConsidersContext]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.437"/>
+  <testcase name="testOne[Swift:MultipleAlternativesWithCommonLabel_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.713">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleAlternativesWithCommonLabel_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.71">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleAlternativesWithCommonLabel_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.699">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleAlternativesWithCommonLabel_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.713">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleAlternativesWithCommonLabel_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.769">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleActions_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.484"/>
+  <testcase name="testOne[Swift:MultipleActions_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.42"/>
+  <testcase name="testOne[Swift:MultipleActions_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.509"/>
+  <testcase name="testOne[Swift:MultipleActionsPredicatesOptions_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.537">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleActionsPredicatesOptions_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.608">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:MultipleActionsPredicatesOptions_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.506">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:LabelsOnOpSubrule_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.506"/>
+  <testcase name="testOne[Swift:LabelsOnOpSubrule_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.452"/>
+  <testcase name="testOne[Swift:LabelsOnOpSubrule_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.709"/>
+  <testcase name="testOne[Swift:JavaExpressions_12]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.979">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_11]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.937">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_10]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.009">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_9]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.005">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_8]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.942">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_7]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.971">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_6]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.916">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.978">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.94">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.006">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.926">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:JavaExpressions_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.572">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_7]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.477">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_6]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.529">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.547">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.509">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.484">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.472">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Expressions_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.555">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:DirectCallToLeftRecursiveRule_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.426"/>
+  <testcase name="testOne[Swift:DirectCallToLeftRecursiveRule_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.397"/>
+  <testcase name="testOne[Swift:DirectCallToLeftRecursiveRule_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.385"/>
+  <testcase name="testOne[Swift:Declarations_10]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.589">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_9]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.279">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_8]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="8.361">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_7]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.543">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_6]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.511">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.53">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.493">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.505">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.577">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:Declarations_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.527">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:AmbigLR_5]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.432">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:AmbigLR_4]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.751">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:AmbigLR_3]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.677">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:AmbigLR_2]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.667">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[..]]></system-out>
+  </testcase>
+  <testcase name="testOne[Swift:AmbigLR_1]" classname="org.antlr.v4.test.runtime.swift.TestLeftRecursion" time="7.717">
+    <failure message="expected:&lt;null&gt; but was:&lt;Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion&#10;&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+]]></failure>
+    <system-out><![CDATA[.]]></system-out>
+  </testcase>
+</testsuite>

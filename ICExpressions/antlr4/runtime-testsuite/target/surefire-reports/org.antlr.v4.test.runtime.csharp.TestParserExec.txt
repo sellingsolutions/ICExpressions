@@ -1,0 +1,115 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestParserExec
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 37, Errors: 0, Skipped: 0, Time elapsed: 1.786 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestParserExec
+testOne[CSharp:OrderingPredicates](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:OpenDeviceStatement_Case3](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:OpenDeviceStatement_Case2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.021 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:OpenDeviceStatement_Case1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReferenceToATN_2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ReferenceToATN_1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredictionIssue334](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredicatedIfIfElse](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ParserProperty](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Optional_4](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.051 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Optional_3](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Optional_2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.073 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Optional_1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.079 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultipleEOFHandling](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.077 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ListLabelsOnSet](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.08 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ListLabelForClosureContext](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Labels](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LabelAliasingAcrossLabeledAlternatives](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.059 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LL1OptionalBlock_2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LL1OptionalBlock_1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.057 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:IfIfElseNonGreedyBinding2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:IfIfElseNonGreedyBinding1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:IfIfElseGreedyBinding2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:IfIfElseGreedyBinding1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.059 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:EOFInClosure](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Wildcard](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Basic](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorBStar_2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.063 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorBStar_1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.069 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorBPlus](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorB](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.051 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorAStar_2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorAStar_1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AorAPlus](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AStar_2](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AStar_1](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.06 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:APlus](org.antlr.v4.test.runtime.csharp.TestParserExec)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError
+

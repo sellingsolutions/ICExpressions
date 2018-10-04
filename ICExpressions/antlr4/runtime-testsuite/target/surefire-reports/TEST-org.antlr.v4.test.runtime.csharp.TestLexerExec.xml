@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="2.02" tests="37" errors="0" skipped="0" failures="37">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="SE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/n5/5hvn8nl54jzcrls7syg644b00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zno/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zno"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zno"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/zno/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testOne[CSharp:LargeLexer]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.496">
+    <failure message="expected:&lt;[@0,0:4=&apos;KW400&apos;,&lt;402&gt;,1:0]&#10;[@1,5:4=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:5]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:4='KW400',<402>,1:0]
+[@1,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:ZeroLengthToken]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.049">
+    <failure message="expected:&lt;[@0,0:4=&apos;&apos;xxx&apos;&apos;,&lt;1&gt;,1:0]&#10;[@1,5:4=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:5]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:4=''xxx'',<1>,1:0]
+[@1,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:Slashes]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.043">
+    <failure message="expected:&lt;[@0,0:0=&apos;\&apos;,&lt;1&gt;,1:0]&#10;[@1,2:2=&apos;/&apos;,&lt;2&gt;,1:2]&#10;[@2,4:5=&apos;\/&apos;,&lt;3&gt;,1:4]&#10;[@3,7:8=&apos;/\&apos;,&lt;4&gt;,1:7]&#10;[@4,9:8=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:9]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='\',<1>,1:0]
+[@1,2:2='/',<2>,1:2]
+[@2,4:5='\/',<3>,1:4]
+[@3,7:8='/\',<4>,1:7]
+[@4,9:8='<EOF>',<-1>,1:9]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:RefToRuleDoesNotSetTokenNorEmitAnother]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.035">
+    <failure message="expected:&lt;[@0,0:1=&apos;34&apos;,&lt;2&gt;,1:0]&#10;[@1,3:5=&apos;-21&apos;,&lt;1&gt;,1:3]&#10;[@2,7:7=&apos;3&apos;,&lt;2&gt;,1:7]&#10;[@3,8:7=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:8]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:1='34',<2>,1:0]
+[@1,3:5='-21',<1>,1:3]
+[@2,7:7='3',<2>,1:7]
+[@3,8:7='<EOF>',<-1>,1:8]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:RecursiveLexerRuleRefWithWildcardStar_2]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.038">
+    <failure message="expected:&lt;[@0,0:8=&apos;/* ick */&apos;,&lt;1&gt;,1:0]&#10;[@1,10:10=&apos;\n&apos;,&lt;2&gt;,1:10]&#10;[@2,11:36=&apos;/* /* */x\n/* /*nested*/ */&apos;,&lt;1&gt;,2:0]&#10;[@3,38:38=&apos;\n&apos;,&lt;2&gt;,3:17]&#10;[@4,39:38=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,4:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,10:10='\n',<2>,1:10]
+[@2,11:36='/* /* */x\n/* /*nested*/ */',<1>,2:0]
+[@3,38:38='\n',<2>,3:17]
+[@4,39:38='<EOF>',<-1>,4:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:RecursiveLexerRuleRefWithWildcardStar_1]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.041">
+    <failure message="expected:&lt;[@0,0:8=&apos;/* ick */&apos;,&lt;1&gt;,1:0]&#10;[@1,9:9=&apos;\n&apos;,&lt;2&gt;,1:9]&#10;[@2,10:34=&apos;/* /* */\n/* /*nested*/ */&apos;,&lt;1&gt;,2:0]&#10;[@3,35:35=&apos;\n&apos;,&lt;2&gt;,3:16]&#10;[@4,36:35=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,4:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,9:9='\n',<2>,1:9]
+[@2,10:34='/* /* */\n/* /*nested*/ */',<1>,2:0]
+[@3,35:35='\n',<2>,3:16]
+[@4,36:35='<EOF>',<-1>,4:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:RecursiveLexerRuleRefWithWildcardPlus_2]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.047">
+    <failure message="expected:&lt;[@0,0:8=&apos;/* ick */&apos;,&lt;1&gt;,1:0]&#10;[@1,10:10=&apos;\n&apos;,&lt;2&gt;,1:10]&#10;[@2,11:36=&apos;/* /* */x\n/* /*nested*/ */&apos;,&lt;1&gt;,2:0]&#10;[@3,38:38=&apos;\n&apos;,&lt;2&gt;,3:17]&#10;[@4,39:38=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,4:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,10:10='\n',<2>,1:10]
+[@2,11:36='/* /* */x\n/* /*nested*/ */',<1>,2:0]
+[@3,38:38='\n',<2>,3:17]
+[@4,39:38='<EOF>',<-1>,4:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:RecursiveLexerRuleRefWithWildcardPlus_1]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.043">
+    <failure message="expected:&lt;[@0,0:8=&apos;/* ick */&apos;,&lt;1&gt;,1:0]&#10;[@1,9:9=&apos;\n&apos;,&lt;2&gt;,1:9]&#10;[@2,10:34=&apos;/* /* */\n/* /*nested*/ */&apos;,&lt;1&gt;,2:0]&#10;[@3,35:35=&apos;\n&apos;,&lt;2&gt;,3:16]&#10;[@4,36:35=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,4:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,9:9='\n',<2>,1:9]
+[@2,10:34='/* /* */\n/* /*nested*/ */',<1>,2:0]
+[@3,35:35='\n',<2>,3:16]
+[@4,36:35='<EOF>',<-1>,4:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:QuoteTranslation]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.037">
+    <failure message="expected:&lt;[@0,0:0=&apos;&quot;&apos;,&lt;1&gt;,1:0]&#10;[@1,1:0=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:1]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='"',<1>,1:0]
+[@1,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:PositionAdjustingLexer]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.04">
+    <failure message="expected:&lt;[@0,0:5=&apos;tokens&apos;,&lt;6&gt;,1:0]&#10;[@1,7:12=&apos;tokens&apos;,&lt;4&gt;,2:0]&#10;[@2,14:14=&apos;{&apos;,&lt;3&gt;,2:7]&#10;[@3,16:23=&apos;notLabel&apos;,&lt;6&gt;,3:0]&#10;[@4,25:30=&apos;label1&apos;,&lt;5&gt;,4:0]&#10;[@5,32:32=&apos;=&apos;,&lt;1&gt;,4:7]&#10;[@6,34:39=&apos;label2&apos;,&lt;5&gt;,5:0]&#10;[@7,41:42=&apos;+=&apos;,&lt;2&gt;,5:7]&#10;[@8,44:51=&apos;notLabel&apos;,&lt;6&gt;,6:0]&#10;[@9,53:52=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,7:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:5='tokens',<6>,1:0]
+[@1,7:12='tokens',<4>,2:0]
+[@2,14:14='{',<3>,2:7]
+[@3,16:23='notLabel',<6>,3:0]
+[@4,25:30='label1',<5>,4:0]
+[@5,32:32='=',<1>,4:7]
+[@6,34:39='label2',<5>,5:0]
+[@7,41:42='+=',<2>,5:7]
+[@8,44:51='notLabel',<6>,6:0]
+[@9,53:52='<EOF>',<-1>,7:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:Parentheses]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.049">
+    <failure message="expected:&lt;[@0,0:4=&apos;-.-.-&apos;,&lt;1&gt;,1:0]&#10;[@1,5:5=&apos;!&apos;,&lt;3&gt;,1:5]&#10;[@2,6:5=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:6]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:4='-.-.-',<1>,1:0]
+[@1,5:5='!',<3>,1:5]
+[@2,6:5='<EOF>',<-1>,1:6]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:NonGreedyTermination2]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.037">
+    <failure message="expected:&lt;[@0,0:6=&apos;&quot;&quot;&quot;mom&quot;&apos;,&lt;1&gt;,1:0]&#10;[@1,7:6=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:7]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='"""mom"',<1>,1:0]
+[@1,7:6='<EOF>',<-1>,1:7]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:NonGreedyTermination1]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.038">
+    <failure message="expected:&lt;[@0,0:3=&apos;&quot;hi&quot;&apos;,&lt;1&gt;,1:0]&#10;[@1,4:8=&apos;&quot;mom&quot;&apos;,&lt;1&gt;,1:4]&#10;[@2,9:8=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:9]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:3='"hi"',<1>,1:0]
+[@1,4:8='"mom"',<1>,1:4]
+[@2,9:8='<EOF>',<-1>,1:9]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:NonGreedyPositiveClosure]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.035">
+    <failure message="expected:&lt;[@0,0:6=&apos;//blah\n&apos;,&lt;1&gt;,1:0]&#10;[@1,7:13=&apos;//blah\n&apos;,&lt;1&gt;,2:0]&#10;[@2,14:13=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='//blah\n',<1>,1:0]
+[@1,7:13='//blah\n',<1>,2:0]
+[@2,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:NonGreedyOptional]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.038">
+    <failure message="expected:&lt;[@0,0:6=&apos;//blah\n&apos;,&lt;1&gt;,1:0]&#10;[@1,7:13=&apos;//blah\n&apos;,&lt;1&gt;,2:0]&#10;[@2,14:13=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='//blah\n',<1>,1:0]
+[@1,7:13='//blah\n',<1>,2:0]
+[@2,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:NonGreedyConfigs]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.045">
+    <failure message="expected:&lt;a&#10;b&#10;[@0,0:0=&apos;a&apos;,&lt;1&gt;,1:0]&#10;[@1,1:1=&apos;b&apos;,&lt;3&gt;,1:1]&#10;[@2,2:1=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:2]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<a
+b
+[@0,0:0='a',<1>,1:0]
+[@1,1:1='b',<3>,1:1]
+[@2,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:NonGreedyClosure]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.036">
+    <failure message="expected:&lt;[@0,0:6=&apos;//blah\n&apos;,&lt;1&gt;,1:0]&#10;[@1,7:13=&apos;//blah\n&apos;,&lt;1&gt;,2:0]&#10;[@2,14:13=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='//blah\n',<1>,1:0]
+[@1,7:13='//blah\n',<1>,2:0]
+[@2,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:KeywordID]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.052">
+    <failure message="expected:&lt;[@0,0:2=&apos;end&apos;,&lt;1&gt;,1:0]&#10;[@1,3:3=&apos; &apos;,&lt;3&gt;,1:3]&#10;[@2,4:7=&apos;eend&apos;,&lt;2&gt;,1:4]&#10;[@3,8:8=&apos; &apos;,&lt;3&gt;,1:8]&#10;[@4,9:14=&apos;ending&apos;,&lt;2&gt;,1:9]&#10;[@5,15:15=&apos; &apos;,&lt;3&gt;,1:15]&#10;[@6,16:16=&apos;a&apos;,&lt;2&gt;,1:16]&#10;[@7,17:16=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:17]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:2='end',<1>,1:0]
+[@1,3:3=' ',<3>,1:3]
+[@2,4:7='eend',<2>,1:4]
+[@3,8:8=' ',<3>,1:8]
+[@4,9:14='ending',<2>,1:9]
+[@5,15:15=' ',<3>,1:15]
+[@6,16:16='a',<2>,1:16]
+[@7,17:16='<EOF>',<-1>,1:17]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:HexVsID]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.036">
+    <failure message="expected:&lt;[@0,0:0=&apos;x&apos;,&lt;5&gt;,1:0]&#10;[@1,1:1=&apos; &apos;,&lt;6&gt;,1:1]&#10;[@2,2:2=&apos;0&apos;,&lt;2&gt;,1:2]&#10;[@3,3:3=&apos; &apos;,&lt;6&gt;,1:3]&#10;[@4,4:4=&apos;1&apos;,&lt;2&gt;,1:4]&#10;[@5,5:5=&apos; &apos;,&lt;6&gt;,1:5]&#10;[@6,6:6=&apos;a&apos;,&lt;5&gt;,1:6]&#10;[@7,7:7=&apos;.&apos;,&lt;4&gt;,1:7]&#10;[@8,8:8=&apos;b&apos;,&lt;5&gt;,1:8]&#10;[@9,9:9=&apos; &apos;,&lt;6&gt;,1:9]&#10;[@10,10:10=&apos;a&apos;,&lt;5&gt;,1:10]&#10;[@11,11:11=&apos;.&apos;,&lt;4&gt;,1:11]&#10;[@12,12:12=&apos;l&apos;,&lt;5&gt;,1:12]&#10;[@13,13:12=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:13]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='x',<5>,1:0]
+[@1,1:1=' ',<6>,1:1]
+[@2,2:2='0',<2>,1:2]
+[@3,3:3=' ',<6>,1:3]
+[@4,4:4='1',<2>,1:4]
+[@5,5:5=' ',<6>,1:5]
+[@6,6:6='a',<5>,1:6]
+[@7,7:7='.',<4>,1:7]
+[@8,8:8='b',<5>,1:8]
+[@9,9:9=' ',<6>,1:9]
+[@10,10:10='a',<5>,1:10]
+[@11,11:11='.',<4>,1:11]
+[@12,12:12='l',<5>,1:12]
+[@13,13:12='<EOF>',<-1>,1:13]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:GreedyPositiveClosure]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.041">
+    <failure message="expected:&lt;[@0,0:13=&apos;//blah\n//blah\n&apos;,&lt;1&gt;,1:0]&#10;[@1,14:13=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:13='//blah\n//blah\n',<1>,1:0]
+[@1,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:GreedyOptional]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.046">
+    <failure message="expected:&lt;[@0,0:13=&apos;//blah\n//blah\n&apos;,&lt;1&gt;,1:0]&#10;[@1,14:13=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:13='//blah\n//blah\n',<1>,1:0]
+[@1,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:GreedyConfigs]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.046">
+    <failure message="expected:&lt;ab&#10;[@0,0:1=&apos;ab&apos;,&lt;1&gt;,1:0]&#10;[@1,2:1=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:2]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<ab
+[@0,0:1='ab',<1>,1:0]
+[@1,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:GreedyClosure]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.044">
+    <failure message="expected:&lt;[@0,0:13=&apos;//blah\n//blah\n&apos;,&lt;1&gt;,1:0]&#10;[@1,14:13=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:13='//blah\n//blah\n',<1>,1:0]
+[@1,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:EOFSuffixInFirstRule_2]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.037">
+    <failure message="expected:&lt;[@0,0:0=&apos;a&apos;,&lt;1&gt;,1:0]&#10;[@1,1:0=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:1]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='a',<1>,1:0]
+[@1,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:EOFSuffixInFirstRule_1]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.037">
+    <failure message="expected:&lt;[@0,0:-1=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:-1='<EOF>',<-1>,1:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:EOFByItself]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.049">
+    <failure message="expected:&lt;[@0,0:-1=&apos;&lt;EOF&gt;&apos;,&lt;1&gt;,1:0]&#10;[@1,0:-1=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:0]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:-1='<EOF>',<1>,1:0]
+[@1,0:-1='<EOF>',<-1>,1:0]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetWithQuote2]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.047">
+    <failure message="expected:&lt;A&#10;[@0,0:3=&apos;b&quot;\a&apos;,&lt;1&gt;,1:0]&#10;[@1,4:3=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:4]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<A
+[@0,0:3='b"\a',<1>,1:0]
+[@1,4:3='<EOF>',<-1>,1:4]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetWithQuote1]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.039">
+    <failure message="expected:&lt;A&#10;[@0,0:2=&apos;b&quot;a&apos;,&lt;1&gt;,1:0]&#10;[@1,3:2=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<A
+[@0,0:2='b"a',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetWithMissingEscapeChar]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.04">
+    <failure message="expected:&lt;I&#10;[@0,0:1=&apos;34&apos;,&lt;1&gt;,1:0]&#10;[@1,3:2=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<I
+[@0,0:1='34',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetWithEscapedChar]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.043">
+    <failure message="expected:&lt;DASHBRACK&#10;DASHBRACK&#10;[@0,0:0=&apos;-&apos;,&lt;1&gt;,1:0]&#10;[@1,2:2=&apos;]&apos;,&lt;1&gt;,1:2]&#10;[@2,4:3=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:4]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<DASHBRACK
+DASHBRACK
+[@0,0:0='-',<1>,1:0]
+[@1,2:2=']',<1>,1:2]
+[@2,4:3='<EOF>',<-1>,1:4]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetRange]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.041">
+    <failure message="expected:&lt;I&#10;I&#10;ID&#10;ID&#10;[@0,0:1=&apos;34&apos;,&lt;1&gt;,1:0]&#10;[@1,4:5=&apos;34&apos;,&lt;1&gt;,2:1]&#10;[@2,7:8=&apos;a2&apos;,&lt;2&gt;,2:4]&#10;[@3,10:12=&apos;abc&apos;,&lt;2&gt;,2:7]&#10;[@4,18:17=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,3:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<I
+I
+ID
+ID
+[@0,0:1='34',<1>,1:0]
+[@1,4:5='34',<1>,2:1]
+[@2,7:8='a2',<2>,2:4]
+[@3,10:12='abc',<2>,2:7]
+[@4,18:17='<EOF>',<-1>,3:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetPlus]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.042">
+    <failure message="expected:&lt;I&#10;I&#10;[@0,0:1=&apos;34&apos;,&lt;1&gt;,1:0]&#10;[@1,4:5=&apos;34&apos;,&lt;1&gt;,2:1]&#10;[@2,6:5=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,2:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<I
+I
+[@0,0:1='34',<1>,1:0]
+[@1,4:5='34',<1>,2:1]
+[@2,6:5='<EOF>',<-1>,2:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetNot]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.043">
+    <failure message="expected:&lt;I&#10;[@0,0:2=&apos;xaf&apos;,&lt;1&gt;,1:0]&#10;[@1,3:2=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<I
+[@0,0:2='xaf',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSetInSet]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.044">
+    <failure message="expected:&lt;I&#10;I&#10;[@0,0:0=&apos;a&apos;,&lt;1&gt;,1:0]&#10;[@1,2:2=&apos;x&apos;,&lt;1&gt;,1:2]&#10;[@2,3:2=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<I
+I
+[@0,0:0='a',<1>,1:0]
+[@1,2:2='x',<1>,1:2]
+[@2,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:UnicodeCharSet]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.048">
+    <failure message="expected:&lt;[@0,0:0=&apos;均&apos;,&lt;1&gt;,1:0]&#10;[@1,1:0=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:1]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='均',<1>,1:0]
+[@1,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:CharSet]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.058">
+    <failure message="expected:&lt;I&#10;I&#10;[@0,0:1=&apos;34&apos;,&lt;1&gt;,1:0]&#10;[@1,4:5=&apos;34&apos;,&lt;1&gt;,2:1]&#10;[@2,6:5=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,2:3]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<I
+I
+[@0,0:1='34',<1>,1:0]
+[@1,4:5='34',<1>,2:1]
+[@2,6:5='<EOF>',<-1>,2:3]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[CSharp:ActionPlacement]" classname="org.antlr.v4.test.runtime.csharp.TestLexerExec" time="0.04">
+    <failure message="expected:&lt;stuff0:&#10;stuff1: a&#10;stuff2: ab&#10;ab&#10;[@0,0:1=&apos;ab&apos;,&lt;1&gt;,1:0]&#10;[@1,2:1=&apos;&lt;EOF&gt;&apos;,&lt;-1&gt;,1:2]&#10;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: 
+expected:<stuff0:
+stuff1: a
+stuff2: ab
+ab
+[@0,0:1='ab',<1>,1:0]
+[@1,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+]]></failure>
+    <system-err><![CDATA[java.lang.RuntimeException: Could not locate xbuild
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateTool(BaseCSharpTest.java:435)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.locateMSBuild(BaseCSharpTest.java:415)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.buildProject(BaseCSharpTest.java:380)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.compile(BaseCSharpTest.java:356)
+	at org.antlr.v4.test.runtime.csharp.BaseCSharpTest.execLexer(BaseCSharpTest.java:234)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testLexer(BaseRuntimeTest.java:204)
+	at org.antlr.v4.test.runtime.BaseRuntimeTest.testOne(BaseRuntimeTest.java:121)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Failed to compile!
+]]></system-err>
+  </testcase>
+</testsuite>

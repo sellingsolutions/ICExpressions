@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.go.TestParserErrors
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 27.384 sec - in org.antlr.v4.test.runtime.go.TestParserErrors

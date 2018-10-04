@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.swift.TestLexerExec
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 288.757 sec - in org.antlr.v4.test.runtime.swift.TestLexerExec

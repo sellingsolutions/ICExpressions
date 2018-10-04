@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.swift.TestSemPredEvalParser
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 193.642 sec - in org.antlr.v4.test.runtime.swift.TestSemPredEvalParser

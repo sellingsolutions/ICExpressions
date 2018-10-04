@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestCompositeParsers
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 1.963 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestCompositeParsers
+testOne[CSharp:KeywordVSIDOrder](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.257 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ImportedRuleWithAction](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.142 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ImportedGrammarWithEmptyOptions](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.119 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ImportLexerWithOnlyFragmentRules](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.105 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorRuleOverridesLookaheadInDelegate](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.158 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorRuleOverridesDelegates](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.168 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorRuleOverridesDelegate](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.116 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorInvokesFirstVersionOfDelegateRule](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.125 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorInvokesDelegateRuleWithReturnStruct](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.103 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorInvokesDelegateRuleWithArgs](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.122 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorInvokesDelegateRule](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.111 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatorAccessesDelegateMembers](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.118 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DelegatesSeeSameTokenType](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.103 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:CombinedImportsCombined](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.127 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:BringInLiteralsFromDelegate](org.antlr.v4.test.runtime.csharp.TestCompositeParsers)  Time elapsed: 0.088 sec  <<< FAILURE!
+java.lang.AssertionError
+

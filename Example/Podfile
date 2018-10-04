@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ICExpressions_Tests' do
+  pod 'ICExpressions', :path => '../'
+  
+  
+end

@@ -1,0 +1,298 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.python3.TestLeftRecursion
+-------------------------------------------------------------------------------
+Tests run: 98, Failures: 0, Errors: 98, Skipped: 0, Time elapsed: 3.49 sec <<< FAILURE! - in org.antlr.v4.test.runtime.python3.TestLeftRecursion
+testOne[Python3:WhitespaceInfluence_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.046 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:WhitespaceInfluence_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.043 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_9](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_8](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_7](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_6](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.046 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExpr_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.037 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_9](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_8](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_7](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_6](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:TernaryExprExplicitAssociativity_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Simple_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.036 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Simple_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Simple_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:SemPredFailOption](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:SemPred](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActions_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActions_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActions_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.037 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActions_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.038 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList2_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList2_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList2_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList2_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.036 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList1_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList1_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList1_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsList1_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsAndLabels_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsAndLabels_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.036 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsAndLabels_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ReturnValueAndActionsAndLabels_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.055 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:PrefixOpWithActionAndLabel_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.046 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:PrefixOpWithActionAndLabel_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.041 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:PrefixOpWithActionAndLabel_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.04 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:PrefixAndOtherAlt_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:PrefixAndOtherAlt_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:PrecedenceFilterConsidersContext](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleAlternativesWithCommonLabel_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleAlternativesWithCommonLabel_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleAlternativesWithCommonLabel_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.036 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleAlternativesWithCommonLabel_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.037 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleAlternativesWithCommonLabel_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.036 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleActions_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleActions_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleActions_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleActionsPredicatesOptions_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleActionsPredicatesOptions_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:MultipleActionsPredicatesOptions_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:LabelsOnOpSubrule_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:LabelsOnOpSubrule_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:LabelsOnOpSubrule_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.029 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_12](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.045 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_11](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.045 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_10](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.049 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_9](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.045 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_8](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_7](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.064 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_6](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.045 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.045 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:JavaExpressions_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.047 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_7](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_6](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Expressions_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:DirectCallToLeftRecursiveRule_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:DirectCallToLeftRecursiveRule_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.029 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:DirectCallToLeftRecursiveRule_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_10](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.042 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_9](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.04 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_8](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.037 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_7](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_6](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:Declarations_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:AmbigLR_5](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:AmbigLR_4](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:AmbigLR_3](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:AmbigLR_2](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:AmbigLR_1](org.antlr.v4.test.runtime.python3.TestLeftRecursion)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+

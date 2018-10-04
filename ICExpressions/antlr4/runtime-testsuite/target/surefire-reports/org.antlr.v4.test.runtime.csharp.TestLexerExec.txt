@@ -1,0 +1,304 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestLexerExec
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 37, Errors: 0, Skipped: 0, Time elapsed: 2.02 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestLexerExec
+testOne[CSharp:LargeLexer](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.496 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:4='KW400',<402>,1:0]
+[@1,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+
+testOne[CSharp:ZeroLengthToken](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.049 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:4=''xxx'',<1>,1:0]
+[@1,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+
+testOne[CSharp:Slashes](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.043 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='\',<1>,1:0]
+[@1,2:2='/',<2>,1:2]
+[@2,4:5='\/',<3>,1:4]
+[@3,7:8='/\',<4>,1:7]
+[@4,9:8='<EOF>',<-1>,1:9]
+> but was:<null>
+
+testOne[CSharp:RefToRuleDoesNotSetTokenNorEmitAnother](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.035 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:1='34',<2>,1:0]
+[@1,3:5='-21',<1>,1:3]
+[@2,7:7='3',<2>,1:7]
+[@3,8:7='<EOF>',<-1>,1:8]
+> but was:<null>
+
+testOne[CSharp:RecursiveLexerRuleRefWithWildcardStar_2](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.038 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,10:10='\n',<2>,1:10]
+[@2,11:36='/* /* */x\n/* /*nested*/ */',<1>,2:0]
+[@3,38:38='\n',<2>,3:17]
+[@4,39:38='<EOF>',<-1>,4:0]
+> but was:<null>
+
+testOne[CSharp:RecursiveLexerRuleRefWithWildcardStar_1](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.041 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,9:9='\n',<2>,1:9]
+[@2,10:34='/* /* */\n/* /*nested*/ */',<1>,2:0]
+[@3,35:35='\n',<2>,3:16]
+[@4,36:35='<EOF>',<-1>,4:0]
+> but was:<null>
+
+testOne[CSharp:RecursiveLexerRuleRefWithWildcardPlus_2](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.047 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,10:10='\n',<2>,1:10]
+[@2,11:36='/* /* */x\n/* /*nested*/ */',<1>,2:0]
+[@3,38:38='\n',<2>,3:17]
+[@4,39:38='<EOF>',<-1>,4:0]
+> but was:<null>
+
+testOne[CSharp:RecursiveLexerRuleRefWithWildcardPlus_1](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.043 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:8='/* ick */',<1>,1:0]
+[@1,9:9='\n',<2>,1:9]
+[@2,10:34='/* /* */\n/* /*nested*/ */',<1>,2:0]
+[@3,35:35='\n',<2>,3:16]
+[@4,36:35='<EOF>',<-1>,4:0]
+> but was:<null>
+
+testOne[CSharp:QuoteTranslation](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.037 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='"',<1>,1:0]
+[@1,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+
+testOne[CSharp:PositionAdjustingLexer](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.04 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:5='tokens',<6>,1:0]
+[@1,7:12='tokens',<4>,2:0]
+[@2,14:14='{',<3>,2:7]
+[@3,16:23='notLabel',<6>,3:0]
+[@4,25:30='label1',<5>,4:0]
+[@5,32:32='=',<1>,4:7]
+[@6,34:39='label2',<5>,5:0]
+[@7,41:42='+=',<2>,5:7]
+[@8,44:51='notLabel',<6>,6:0]
+[@9,53:52='<EOF>',<-1>,7:0]
+> but was:<null>
+
+testOne[CSharp:Parentheses](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.049 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:4='-.-.-',<1>,1:0]
+[@1,5:5='!',<3>,1:5]
+[@2,6:5='<EOF>',<-1>,1:6]
+> but was:<null>
+
+testOne[CSharp:NonGreedyTermination2](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.037 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='"""mom"',<1>,1:0]
+[@1,7:6='<EOF>',<-1>,1:7]
+> but was:<null>
+
+testOne[CSharp:NonGreedyTermination1](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.038 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:3='"hi"',<1>,1:0]
+[@1,4:8='"mom"',<1>,1:4]
+[@2,9:8='<EOF>',<-1>,1:9]
+> but was:<null>
+
+testOne[CSharp:NonGreedyPositiveClosure](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.035 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='//blah\n',<1>,1:0]
+[@1,7:13='//blah\n',<1>,2:0]
+[@2,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+
+testOne[CSharp:NonGreedyOptional](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.038 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='//blah\n',<1>,1:0]
+[@1,7:13='//blah\n',<1>,2:0]
+[@2,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+
+testOne[CSharp:NonGreedyConfigs](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.045 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<a
+b
+[@0,0:0='a',<1>,1:0]
+[@1,1:1='b',<3>,1:1]
+[@2,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+
+testOne[CSharp:NonGreedyClosure](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.036 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='//blah\n',<1>,1:0]
+[@1,7:13='//blah\n',<1>,2:0]
+[@2,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+
+testOne[CSharp:KeywordID](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.052 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:2='end',<1>,1:0]
+[@1,3:3=' ',<3>,1:3]
+[@2,4:7='eend',<2>,1:4]
+[@3,8:8=' ',<3>,1:8]
+[@4,9:14='ending',<2>,1:9]
+[@5,15:15=' ',<3>,1:15]
+[@6,16:16='a',<2>,1:16]
+[@7,17:16='<EOF>',<-1>,1:17]
+> but was:<null>
+
+testOne[CSharp:HexVsID](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.036 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='x',<5>,1:0]
+[@1,1:1=' ',<6>,1:1]
+[@2,2:2='0',<2>,1:2]
+[@3,3:3=' ',<6>,1:3]
+[@4,4:4='1',<2>,1:4]
+[@5,5:5=' ',<6>,1:5]
+[@6,6:6='a',<5>,1:6]
+[@7,7:7='.',<4>,1:7]
+[@8,8:8='b',<5>,1:8]
+[@9,9:9=' ',<6>,1:9]
+[@10,10:10='a',<5>,1:10]
+[@11,11:11='.',<4>,1:11]
+[@12,12:12='l',<5>,1:12]
+[@13,13:12='<EOF>',<-1>,1:13]
+> but was:<null>
+
+testOne[CSharp:GreedyPositiveClosure](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.041 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:13='//blah\n//blah\n',<1>,1:0]
+[@1,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+
+testOne[CSharp:GreedyOptional](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.046 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:13='//blah\n//blah\n',<1>,1:0]
+[@1,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+
+testOne[CSharp:GreedyConfigs](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.046 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<ab
+[@0,0:1='ab',<1>,1:0]
+[@1,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+
+testOne[CSharp:GreedyClosure](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.044 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:13='//blah\n//blah\n',<1>,1:0]
+[@1,14:13='<EOF>',<-1>,3:0]
+> but was:<null>
+
+testOne[CSharp:EOFSuffixInFirstRule_2](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.037 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='a',<1>,1:0]
+[@1,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+
+testOne[CSharp:EOFSuffixInFirstRule_1](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.037 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:-1='<EOF>',<-1>,1:0]
+> but was:<null>
+
+testOne[CSharp:EOFByItself](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.049 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:-1='<EOF>',<1>,1:0]
+[@1,0:-1='<EOF>',<-1>,1:0]
+> but was:<null>
+
+testOne[CSharp:CharSetWithQuote2](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.047 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<A
+[@0,0:3='b"\a',<1>,1:0]
+[@1,4:3='<EOF>',<-1>,1:4]
+> but was:<null>
+
+testOne[CSharp:CharSetWithQuote1](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.039 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<A
+[@0,0:2='b"a',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+
+testOne[CSharp:CharSetWithMissingEscapeChar](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.04 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<I
+[@0,0:1='34',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+
+testOne[CSharp:CharSetWithEscapedChar](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.043 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<DASHBRACK
+DASHBRACK
+[@0,0:0='-',<1>,1:0]
+[@1,2:2=']',<1>,1:2]
+[@2,4:3='<EOF>',<-1>,1:4]
+> but was:<null>
+
+testOne[CSharp:CharSetRange](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.041 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<I
+I
+ID
+ID
+[@0,0:1='34',<1>,1:0]
+[@1,4:5='34',<1>,2:1]
+[@2,7:8='a2',<2>,2:4]
+[@3,10:12='abc',<2>,2:7]
+[@4,18:17='<EOF>',<-1>,3:3]
+> but was:<null>
+
+testOne[CSharp:CharSetPlus](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.042 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<I
+I
+[@0,0:1='34',<1>,1:0]
+[@1,4:5='34',<1>,2:1]
+[@2,6:5='<EOF>',<-1>,2:3]
+> but was:<null>
+
+testOne[CSharp:CharSetNot](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.043 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<I
+[@0,0:2='xaf',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+
+testOne[CSharp:CharSetInSet](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.044 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<I
+I
+[@0,0:0='a',<1>,1:0]
+[@1,2:2='x',<1>,1:2]
+[@2,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+
+testOne[CSharp:UnicodeCharSet](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.048 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='均',<1>,1:0]
+[@1,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+
+testOne[CSharp:CharSet](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.058 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<I
+I
+[@0,0:1='34',<1>,1:0]
+[@1,4:5='34',<1>,2:1]
+[@2,6:5='<EOF>',<-1>,2:3]
+> but was:<null>
+
+testOne[CSharp:ActionPlacement](org.antlr.v4.test.runtime.csharp.TestLexerExec)  Time elapsed: 0.04 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<stuff0:
+stuff1: a
+stuff2: ab
+ab
+[@0,0:1='ab',<1>,1:0]
+[@1,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+

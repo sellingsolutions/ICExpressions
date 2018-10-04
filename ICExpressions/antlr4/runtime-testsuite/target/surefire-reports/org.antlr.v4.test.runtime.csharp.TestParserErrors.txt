@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestParserErrors
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 33, Errors: 0, Skipped: 1, Time elapsed: 1.546 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestParserErrors
+testOne[CSharp:TokenMismatch3](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TokenMismatch2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TokenMismatch](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenInsertion](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionExpectingSet](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionDuringLoop2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionDuringLoop](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.041 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionConsumption](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionBeforePredict](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.051 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionBeforeLoop2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.056 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionBeforeLoop](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.038 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletionBeforeAlt](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleTokenDeletion](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleSetInsertionConsumption](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SingleSetInsertion](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.056 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:NoViableAltAvoidance](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultiTokenDeletionDuringLoop2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultiTokenDeletionDuringLoop](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultiTokenDeletionBeforeLoop2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:MultiTokenDeletionBeforeLoop](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LLStar](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LL3](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LL2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:LL1ErrorInfo](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:InvalidEmptyInput](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:InvalidATNStateRemoval](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.066 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DuplicatedLeftRecursiveCall_4](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.065 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DuplicatedLeftRecursiveCall_3](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DuplicatedLeftRecursiveCall_2](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.061 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DuplicatedLeftRecursiveCall_1](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.061 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ContextListGetters](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ConjuringUpTokenFromSet](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ConjuringUpToken](org.antlr.v4.test.runtime.csharp.TestParserErrors)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError
+

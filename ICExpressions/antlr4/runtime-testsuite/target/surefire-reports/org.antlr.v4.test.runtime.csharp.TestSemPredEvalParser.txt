@@ -1,0 +1,79 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 25, Errors: 0, Skipped: 1, Time elapsed: 1.218 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser
+testOne[CSharp:ValidateInDFA](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:UnpredicatedPathsInAlt](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TwoUnpredicatedAltsAndOneOrthogonalAlt](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:TwoUnpredicatedAlts](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ToLeftWithVaryingPredicate](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ToLeft](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SimpleValidate2](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:SimpleValidate](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Simple](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:RewindBeforePredEval](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredsInGlobalFOLLOW](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredicateDependentOnArg2](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredicateDependentOnArg](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredTestedEvenWhenUnAmbig_2](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredTestedEvenWhenUnAmbig_1](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:PredFromAltTestedInLoopBack_2](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.063 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:Order](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.038 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:NoTruePredsThrowsNoViableAlt](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.051 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:IndependentPredNotPassedOuterCtxToAvoidCastException](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DisabledAlternative](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DependentPredNotInOuterCtxShouldBeIgnored](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:DepedentPredsInGlobalFOLLOW](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.056 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:AtomWithClosureInTranslatedLRRule](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.06 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ActionsHidePredsInGlobalFOLLOW](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.062 sec  <<< FAILURE!
+java.lang.AssertionError
+
+testOne[CSharp:ActionHidesPreds](org.antlr.v4.test.runtime.csharp.TestSemPredEvalParser)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.AssertionError
+

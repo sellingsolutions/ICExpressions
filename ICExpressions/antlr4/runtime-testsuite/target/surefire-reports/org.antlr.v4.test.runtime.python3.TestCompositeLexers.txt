@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.python3.TestCompositeLexers
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE! - in org.antlr.v4.test.runtime.python3.TestCompositeLexers
+testOne[Python3:LexerDelegatorRuleOverridesDelegate](org.antlr.v4.test.runtime.python3.TestCompositeLexers)  Time elapsed: 0.019 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:LexerDelegatorInvokesDelegateRule](org.antlr.v4.test.runtime.python3.TestCompositeLexers)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+

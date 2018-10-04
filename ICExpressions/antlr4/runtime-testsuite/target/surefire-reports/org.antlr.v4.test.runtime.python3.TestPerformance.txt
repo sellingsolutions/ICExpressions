@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.python3.TestPerformance
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 6, Skipped: 1, Time elapsed: 0.207 sec <<< FAILURE! - in org.antlr.v4.test.runtime.python3.TestPerformance
+testOne[Python3:DropLoopEntryBranchInLRRule_5](org.antlr.v4.test.runtime.python3.TestPerformance)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:DropLoopEntryBranchInLRRule_3](org.antlr.v4.test.runtime.python3.TestPerformance)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:DropLoopEntryBranchInLRRule_2](org.antlr.v4.test.runtime.python3.TestPerformance)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:DropLoopEntryBranchInLRRule_1](org.antlr.v4.test.runtime.python3.TestPerformance)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ExpressionGrammar_2](org.antlr.v4.test.runtime.python3.TestPerformance)  Time elapsed: 0.039 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+
+testOne[Python3:ExpressionGrammar_1](org.antlr.v4.test.runtime.python3.TestPerformance)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.RuntimeException: Could not locate python3.5
+

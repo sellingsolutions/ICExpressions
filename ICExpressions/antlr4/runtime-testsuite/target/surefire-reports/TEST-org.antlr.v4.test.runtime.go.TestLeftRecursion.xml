@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="98.806" tests="98" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="SE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/n5/5hvn8nl54jzcrls7syg644b00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zno/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zno"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zno"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/zno/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testOne[Go:WhitespaceInfluence_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="2.313"/>
+  <testcase name="testOne[Go:WhitespaceInfluence_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="2.275"/>
+  <testcase name="testOne[Go:TernaryExpr_9]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.85"/>
+  <testcase name="testOne[Go:TernaryExpr_8]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.844"/>
+  <testcase name="testOne[Go:TernaryExpr_7]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.858"/>
+  <testcase name="testOne[Go:TernaryExpr_6]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.865"/>
+  <testcase name="testOne[Go:TernaryExpr_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.847"/>
+  <testcase name="testOne[Go:TernaryExpr_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.841"/>
+  <testcase name="testOne[Go:TernaryExpr_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.845"/>
+  <testcase name="testOne[Go:TernaryExpr_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.956"/>
+  <testcase name="testOne[Go:TernaryExpr_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.894"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_9]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.912"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_8]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.848"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_7]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.833"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_6]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.83"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.83"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.849"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.852"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.838"/>
+  <testcase name="testOne[Go:TernaryExprExplicitAssociativity_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.838"/>
+  <testcase name="testOne[Go:Simple_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.816"/>
+  <testcase name="testOne[Go:Simple_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.85"/>
+  <testcase name="testOne[Go:Simple_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.892"/>
+  <testcase name="testOne[Go:SemPredFailOption]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.909"/>
+  <testcase name="testOne[Go:SemPred]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.534"/>
+  <testcase name="testOne[Go:ReturnValueAndActions_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.206"/>
+  <testcase name="testOne[Go:ReturnValueAndActions_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.841"/>
+  <testcase name="testOne[Go:ReturnValueAndActions_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.858"/>
+  <testcase name="testOne[Go:ReturnValueAndActions_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.869"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList2_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.042"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList2_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.023"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList2_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.024"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList2_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.07"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList1_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.003"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList1_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.022"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList1_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.989"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsList1_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.974"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsAndLabels_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.208"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsAndLabels_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.192"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsAndLabels_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.189"/>
+  <testcase name="testOne[Go:ReturnValueAndActionsAndLabels_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.181"/>
+  <testcase name="testOne[Go:PrefixOpWithActionAndLabel_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.849"/>
+  <testcase name="testOne[Go:PrefixOpWithActionAndLabel_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.865"/>
+  <testcase name="testOne[Go:PrefixOpWithActionAndLabel_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.857"/>
+  <testcase name="testOne[Go:PrefixAndOtherAlt_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.997"/>
+  <testcase name="testOne[Go:PrefixAndOtherAlt_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.933"/>
+  <testcase name="testOne[Go:PrecedenceFilterConsidersContext]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.878"/>
+  <testcase name="testOne[Go:MultipleAlternativesWithCommonLabel_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.107"/>
+  <testcase name="testOne[Go:MultipleAlternativesWithCommonLabel_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.104"/>
+  <testcase name="testOne[Go:MultipleAlternativesWithCommonLabel_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.121"/>
+  <testcase name="testOne[Go:MultipleAlternativesWithCommonLabel_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.129"/>
+  <testcase name="testOne[Go:MultipleAlternativesWithCommonLabel_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.119"/>
+  <testcase name="testOne[Go:MultipleActions_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.854"/>
+  <testcase name="testOne[Go:MultipleActions_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.854"/>
+  <testcase name="testOne[Go:MultipleActions_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.849"/>
+  <testcase name="testOne[Go:MultipleActionsPredicatesOptions_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.848"/>
+  <testcase name="testOne[Go:MultipleActionsPredicatesOptions_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.854"/>
+  <testcase name="testOne[Go:MultipleActionsPredicatesOptions_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.853"/>
+  <testcase name="testOne[Go:LabelsOnOpSubrule_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.859"/>
+  <testcase name="testOne[Go:LabelsOnOpSubrule_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.863"/>
+  <testcase name="testOne[Go:LabelsOnOpSubrule_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.844"/>
+  <testcase name="testOne[Go:JavaExpressions_12]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.076"/>
+  <testcase name="testOne[Go:JavaExpressions_11]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.096"/>
+  <testcase name="testOne[Go:JavaExpressions_10]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.092"/>
+  <testcase name="testOne[Go:JavaExpressions_9]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.081"/>
+  <testcase name="testOne[Go:JavaExpressions_8]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.069"/>
+  <testcase name="testOne[Go:JavaExpressions_7]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.066"/>
+  <testcase name="testOne[Go:JavaExpressions_6]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.078"/>
+  <testcase name="testOne[Go:JavaExpressions_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.1"/>
+  <testcase name="testOne[Go:JavaExpressions_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.167"/>
+  <testcase name="testOne[Go:JavaExpressions_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.075"/>
+  <testcase name="testOne[Go:JavaExpressions_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.101"/>
+  <testcase name="testOne[Go:JavaExpressions_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.196"/>
+  <testcase name="testOne[Go:Expressions_7]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.852"/>
+  <testcase name="testOne[Go:Expressions_6]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.863"/>
+  <testcase name="testOne[Go:Expressions_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.841"/>
+  <testcase name="testOne[Go:Expressions_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.835"/>
+  <testcase name="testOne[Go:Expressions_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.839"/>
+  <testcase name="testOne[Go:Expressions_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.836"/>
+  <testcase name="testOne[Go:Expressions_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.867"/>
+  <testcase name="testOne[Go:DirectCallToLeftRecursiveRule_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.782"/>
+  <testcase name="testOne[Go:DirectCallToLeftRecursiveRule_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.767"/>
+  <testcase name="testOne[Go:DirectCallToLeftRecursiveRule_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.752"/>
+  <testcase name="testOne[Go:Declarations_10]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.903"/>
+  <testcase name="testOne[Go:Declarations_9]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.928"/>
+  <testcase name="testOne[Go:Declarations_8]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.889"/>
+  <testcase name="testOne[Go:Declarations_7]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.905"/>
+  <testcase name="testOne[Go:Declarations_6]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.901"/>
+  <testcase name="testOne[Go:Declarations_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.899"/>
+  <testcase name="testOne[Go:Declarations_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.895"/>
+  <testcase name="testOne[Go:Declarations_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.89"/>
+  <testcase name="testOne[Go:Declarations_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.925"/>
+  <testcase name="testOne[Go:Declarations_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="0.888"/>
+  <testcase name="testOne[Go:AmbigLR_5]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.246"/>
+  <testcase name="testOne[Go:AmbigLR_4]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.244"/>
+  <testcase name="testOne[Go:AmbigLR_3]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.236"/>
+  <testcase name="testOne[Go:AmbigLR_2]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.233"/>
+  <testcase name="testOne[Go:AmbigLR_1]" classname="org.antlr.v4.test.runtime.go.TestLeftRecursion" time="1.227"/>
+</testsuite>

@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.csharp.TestLexerErrors
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.138 sec <<< FAILURE! - in org.antlr.v4.test.runtime.csharp.TestLexerErrors
+testOne[CSharp:StringsEmbeddedInActions_2](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.014 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,6:5='<EOF>',<-1>,1:6]
+> but was:<null>
+
+testOne[CSharp:StringsEmbeddedInActions_1](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.018 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='["foo"]',<1>,1:0]
+[@1,7:6='<EOF>',<-1>,1:7]
+> but was:<null>
+
+testOne[CSharp:LexerExecDFA](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:0='x',<3>,1:0]
+[@1,2:2=':',<1>,1:2]
+[@2,4:4='x',<3>,1:4]
+[@3,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+
+testOne[CSharp:InvalidCharInTokenAfterDFACache](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.012 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:1='ab',<1>,1:0]
+[@1,4:3='<EOF>',<-1>,1:4]
+> but was:<null>
+
+testOne[CSharp:InvalidCharInToken](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,2:1='<EOF>',<-1>,1:2]
+> but was:<null>
+
+testOne[CSharp:InvalidCharAtStartAfterDFACache](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.011 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:1='ab',<1>,1:0]
+[@1,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+
+testOne[CSharp:InvalidCharAtStart](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,1:0='<EOF>',<-1>,1:1]
+> but was:<null>
+
+testOne[CSharp:ErrorInMiddle](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.013 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,3:2='<EOF>',<-1>,1:3]
+> but was:<null>
+
+testOne[CSharp:EnforcedGreedyNestedBraces_2](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+
+testOne[CSharp:EnforcedGreedyNestedBraces_1](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:6='{ { } }',<1>,1:0]
+[@1,7:6='<EOF>',<-1>,1:7]
+> but was:<null>
+
+testOne[CSharp:DFAToATNThatMatchesThenFailsInATN](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.011 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:1='ab',<1>,1:0]
+[@1,2:4='abc',<2>,1:2]
+[@2,6:5='<EOF>',<-1>,1:6]
+> but was:<null>
+
+testOne[CSharp:DFAToATNThatFailsBackToDFA](org.antlr.v4.test.runtime.csharp.TestLexerErrors)  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[@0,0:1='ab',<1>,1:0]
+[@1,2:3='ab',<1>,1:2]
+[@2,5:4='<EOF>',<-1>,1:5]
+> but was:<null>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="193.642" tests="26" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="SE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zno/Documents/ICExpressions/antlr4"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/n5/5hvn8nl54jzcrls7syg644b00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zno/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zno"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zno"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/zno/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testOne[Swift:ValidateInDFA]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.678"/>
+  <testcase name="testOne[Swift:UnpredicatedPathsInAlt]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.883"/>
+  <testcase name="testOne[Swift:TwoUnpredicatedAltsAndOneOrthogonalAlt]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.696"/>
+  <testcase name="testOne[Swift:TwoUnpredicatedAlts]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.679"/>
+  <testcase name="testOne[Swift:ToLeftWithVaryingPredicate]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.667"/>
+  <testcase name="testOne[Swift:ToLeft]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.647"/>
+  <testcase name="testOne[Swift:SimpleValidate2]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.688"/>
+  <testcase name="testOne[Swift:SimpleValidate]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.808"/>
+  <testcase name="testOne[Swift:Simple]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.794"/>
+  <testcase name="testOne[Swift:RewindBeforePredEval]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.718"/>
+  <testcase name="testOne[Swift:PredsInGlobalFOLLOW]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.745"/>
+  <testcase name="testOne[Swift:PredicateDependentOnArg2]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.679"/>
+  <testcase name="testOne[Swift:PredicateDependentOnArg]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.71"/>
+  <testcase name="testOne[Swift:PredTestedEvenWhenUnAmbig_2]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.71"/>
+  <testcase name="testOne[Swift:PredTestedEvenWhenUnAmbig_1]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.824"/>
+  <testcase name="testOne[Swift:PredFromAltTestedInLoopBack_2]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.798"/>
+  <testcase name="testOne[Swift:PredFromAltTestedInLoopBack_1]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testOne[Swift:Order]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.626"/>
+  <testcase name="testOne[Swift:NoTruePredsThrowsNoViableAlt]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.654"/>
+  <testcase name="testOne[Swift:IndependentPredNotPassedOuterCtxToAvoidCastException]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.601"/>
+  <testcase name="testOne[Swift:DisabledAlternative]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.731"/>
+  <testcase name="testOne[Swift:DependentPredNotInOuterCtxShouldBeIgnored]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.754"/>
+  <testcase name="testOne[Swift:DepedentPredsInGlobalFOLLOW]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.765"/>
+  <testcase name="testOne[Swift:AtomWithClosureInTranslatedLRRule]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.614"/>
+  <testcase name="testOne[Swift:ActionsHidePredsInGlobalFOLLOW]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="7.913"/>
+  <testcase name="testOne[Swift:ActionHidesPreds]" classname="org.antlr.v4.test.runtime.swift.TestSemPredEvalParser" time="8.259"/>
+</testsuite>

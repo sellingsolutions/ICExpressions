@@ -1,0 +1,16 @@
+PODS:
+  - ICExpressions (0.1.0)
+
+DEPENDENCIES:
+  - ICExpressions (from `../`)
+
+EXTERNAL SOURCES:
+  ICExpressions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ICExpressions: a5912d1b32449795b30b4f4ba1da1a50e123a29d
+
+PODFILE CHECKSUM: ab6154ecb501df9466c3727fef83d69348b3aea6
+
+COCOAPODS: 1.4.0

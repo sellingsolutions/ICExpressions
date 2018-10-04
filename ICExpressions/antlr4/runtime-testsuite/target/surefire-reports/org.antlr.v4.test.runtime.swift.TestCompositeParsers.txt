@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.swift.TestCompositeParsers
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 104.814 sec <<< FAILURE! - in org.antlr.v4.test.runtime.swift.TestCompositeParsers
+testOne[Swift:DelegatorInvokesDelegateRuleWithArgs](org.antlr.v4.test.runtime.swift.TestCompositeParsers)  Time elapsed: 7.47 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<S.a[1000]
+> but was:<S.a[Optional(1000)]
+>
+

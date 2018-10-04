@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.swift.TestPerformance
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 15.674 sec <<< FAILURE! - in org.antlr.v4.test.runtime.swift.TestPerformance
+testOne[Swift:ExpressionGrammar_2](org.antlr.v4.test.runtime.swift.TestPerformance)  Time elapsed: 7.833 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+
+testOne[Swift:ExpressionGrammar_1](org.antlr.v4.test.runtime.swift.TestPerformance)  Time elapsed: 7.84 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<null> but was:<Fatal error: Duplicate element found in Set. Elements may have been mutated after insertion
+>
+
